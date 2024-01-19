@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "W:\\DEVDRIVE\\_githubcom\\UmbracoThirteenIPView\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.UmbracoThirteenIPView.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.UmbracoThirteenIPView.props",
+      "PackagePath": "build\\UmbracoThirteenIPView.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.UmbracoThirteenIPView.props",
+      "PackagePath": "buildMultiTargeting\\UmbracoThirteenIPView.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.UmbracoThirteenIPView.props",
+      "PackagePath": "buildTransitive\\UmbracoThirteenIPView.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

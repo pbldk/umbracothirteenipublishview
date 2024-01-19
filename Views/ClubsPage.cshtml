@@ -1,0 +1,44 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<IEnumerable<ClubsViewModel>>
+@{
+ Layout = "Master";
+}
+@using UmbracoThirteenIPView.Models;
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+</style>
+
+<table>
+ <thead>
+  <tr>
+   <th>Club Name</th>
+   <th>Club ID</th>
+  </tr>
+ </thead>
+ <tbody>
+  @foreach (var item in Model)
+  {
+   <tr>
+    <td>@item.ClubName</td>
+    <td>@item.ClubID</td>
+   </tr>
+  }
+ </tbody>
+</table>
